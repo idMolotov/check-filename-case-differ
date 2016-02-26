@@ -8,7 +8,7 @@ parser = argparse.ArgumentParser(
 parser.add_argument('--basedir',
                     default='/tmp',
                     type=str,
-                    help='directory where is repository HOME')
+                    help='directory where is repository HOME (absolute path required)')
 
 args = parser.parse_args()
 BASE_DIR = args.basedir
